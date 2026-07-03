@@ -53,8 +53,11 @@ Fonction centrale qui orchestre l'apprentissage :
 
 ```
 .
-├── data.csv              # Dataset
-├── perceptron.ipynb      # Notebook principal
-├── assets/               # Images utilisées dans le README
-└── README.md
+├── data.csv                                              #Dataset du breast winconsin cancer
+├── data.csv                                              # Dataset des images de chien et chat
+├── fonctions.py                                          # Implémentation des fonctions de la forward propagation, de la back propagation et de l'entrainement
+├── réseaux_de_neurone_breast_cancer.ipynb                # Application du réseaux à 3 couches à l'ensemble du breast_cancer
+├── réseaux_de_neurones_chien_chat.ipynb                  # Apllication du réseaux à 3 couches sur la classification entre chien et chat
+└── utilities.py                                          # Fonction pour appeler les images de chiens et chat
+
 ```
