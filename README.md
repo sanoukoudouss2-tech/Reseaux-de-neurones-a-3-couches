@@ -47,3 +47,14 @@ Fonction centrale qui orchestre l'apprentissage :
 - Sécurité Numérique (Clipping) : Utilisation de np.clip(A3, 1e-15, 1 - 1e-15) pour encapsuler les probabilités et bloquer définitivement l'erreur divide by zero encountered in log dans le calcul de la perte (Log-Loss).
 - Aplatissement (Flattening) : Utilisation de .flatten() lors du calcul de la précision (accuracy_score) pour forcer une comparaison élément par élément plutôt qu'une comparaison matricielle globale erronée.
 - Visualisation : Génère automatiquement deux graphiques de convergence (un pour la perte et un pour l'accuracy) comparant les performances d'entraînement et de test au fil des itérations.
+
+
+##  Structure du projet
+
+```
+.
+├── data.csv              # Dataset
+├── perceptron.ipynb      # Notebook principal
+├── assets/               # Images utilisées dans le README
+└── README.md
+```
