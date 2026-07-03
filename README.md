@@ -38,8 +38,8 @@ Elle applique l'algorithme de descente de gradient via la **règle de dérivatio
 
 ### 🆙 4. Mise à jour des Paramètres (`MAJ`)
 Modifie les matrices de poids et de biais en soustrayant le produit du gradient et du taux d'apprentissage ($ lpha$ ou `learning_rate`) :
-$$\mathbf{W} = \mathbf{W} -  lpha \cdot \mathbf{dW}$$
-$$\mathbf{b} = \mathbf{b} -  lpha \cdot \mathbf{db}$$
+$$\mathbf{W} = \mathbf{W} -  alpha \cdot \mathbf{dW}$$
+$$\mathbf{b} = \mathbf{b} -  alpha \cdot \mathbf{db}$$
 
 ### 🔮 5. Prédiction (`predict`)
 Effectue une propagation avant sur de nouvelles données, extrait la probabilité finale $\mathbf{A_3}$ et applique un seuil de décision strict à `0.5` pour retourner des classes binaires entières (`0` ou `1`).
